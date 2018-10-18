@@ -1,0 +1,9 @@
+{
+  "include": [
+    "packages/**/src"
+  ],
+  "compilerOptions": {
+    "jsx": "react",
+    "skipLibCheck": true
+  },
+}

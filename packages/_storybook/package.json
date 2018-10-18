@@ -1,0 +1,11 @@
+{
+  "name": "@coinsquare/storybook",
+  "version": "0.0.0",
+  "description": "Coinsquare storybook config",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo ''"
+  },
+  "dependencies": {},
+  "gitHead": "e5e867fa20a54dad33ff45df42a2d03a42e331c0"
+}
