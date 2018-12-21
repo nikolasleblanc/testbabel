@@ -2,16 +2,16 @@ import * as React from "react";
 
 interface {{pascalcase name}}Props {
   /** Sample prop description */
-  dummyProp: number;
+  dummyProp?: string;
 }
 
 const {{pascalcase name}}: React.SFC<{{pascalcase name}}Props> = props => (
-  <p>Replace me {props.dummyProp}</p>
+  <p>{{pascalcase name}} Component - {props.dummyProp}</p>
 );
 
 {{pascalcase name}}.defaultProps = {
   /* Sample prop that you can change */
-  dummyProp: 123
+  dummyProp: 'My dummy prop default value'
 }
 
 export default {{pascalcase name}};

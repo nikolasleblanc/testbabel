@@ -8,7 +8,7 @@ import {{pascalcase name}} from './{{pascalcase name}}';
 import { createStorySetWithDefault, getKnob, getStoryProps } from '@coinsquare/storybook';
 
 const getKnobProps = (exclude = []) => ({
-  ...getKnob('dummyProp', text, 'Dummy Prop', '123', exclude),
+  ...getKnob('dummyProp', text, 'Dummy Prop', 'My dummy prop default value', exclude),
 });
 
 const eventHandlers = {

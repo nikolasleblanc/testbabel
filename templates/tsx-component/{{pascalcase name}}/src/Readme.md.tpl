@@ -1,3 +1,3 @@
 ```js
-<{{pascalcase name}} dummyProp={123}/>
+<{{pascalcase name}} dummyProp={'My default dummy prop value'}/>
 ```
