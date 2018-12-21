@@ -1,3 +1,3 @@
 ```js
-<World dummyProp={123}/>
+<World dummyProp={'My default dummy prop value'}/>
 ```

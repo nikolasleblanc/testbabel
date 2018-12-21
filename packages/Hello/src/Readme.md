@@ -1,3 +1,3 @@
 ```js
-<Hello dummyProp={123}/>
+<Hello dummyProp={'My default dummy prop value'}/>
 ```

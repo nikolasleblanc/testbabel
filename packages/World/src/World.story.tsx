@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import { text } from '@storybook/addon-knobs';
 import { withInfo } from '@storybook/addon-info';
@@ -8,7 +8,7 @@ import World from './World';
 import { createStorySetWithDefault, getKnob, getStoryProps } from '@coinsquare/storybook';
 
 const getKnobProps = (exclude = []) => ({
-  ...getKnob('dummyProp', text, 'Dummy Prop', '123', exclude),
+  ...getKnob('dummyProp', text, 'Dummy Prop', 'My dummy prop default value', exclude),
 });
 
 const eventHandlers = {

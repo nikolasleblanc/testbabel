@@ -3,23 +3,22 @@
   "version": "0.0.0",
   "description": "Hello component",
   "scripts": {
-    "build": "babel src --out-dir dist --verbose --extensions '.ts,.tsx'",
-    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist",
-    "prebuild": "rimraf dist && npm run type-check",
-    "postbuild": "npm run build:types",
-    "type-check": "tsc --noEmit",
+    "build": "babel src --out-dir dist --verbose",
+    "type-check": "echo ''",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "dist"
   ],
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.5.1"
+    "react": "^16.5.1",
+    "styled-components": "^3.4.6"
   },
   "dependencies": {
+    "styled-system": "^3.1.3",
     "@coinsquare/build": "^0.0.0",
     "@coinsquare/storybook": "^0.0.0"
   }

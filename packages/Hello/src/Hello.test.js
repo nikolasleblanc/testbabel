@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import World from './World';
+import Hello from './Hello';
 
 const createComponent = newProps => {
   const component = renderer.create(
-    <World {...props} />
+    <Hello {...props} />
   );
 
   return {
@@ -13,7 +13,7 @@ const createComponent = newProps => {
   };
 };
 
-describe('World component', () => {
+describe('Hello component', () => {
   it('should render', () => {
     const { component } = createComponent();
     const tree = component.toJSON();
