@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import {{pascalcase name}} from './{{pascalcase name}}';
+import { {{pascalcase name}} } from './{{pascalcase name}}';
 
 const createComponent = newProps => {
   const component = renderer.create(

@@ -26,10 +26,10 @@ yarn storybook
 
 ## Generating new component skeletons
 
-### JSX
+### JSX (SFC)
 
 ```
-yarn generate-jsx
+yarn generate-sfc-jsx
 ```
 
 ### TSX

@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Hello from './Hello';
+import { Hello } from './Hello';
 
 const createComponent = newProps => {
   const component = renderer.create(

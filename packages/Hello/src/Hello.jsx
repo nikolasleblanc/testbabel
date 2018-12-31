@@ -1,19 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
-export default class Hello extends React.PureComponent {
-  static propTypes = {
-    /** Sample prop that you can change */
-    dummyProp: PropTypes.string
-  };
+import PropTypes from 'prop-types';
 
-  static defaultProps = {
-    dummyProp: 'My dummy prop default value'
-  };
+export const Hello = props => (
+  <p>Hello Component {props.dummyProp}</p>
+);
 
-  render() {
-    return (
-      <p>Hello Component - {this.props.dummyProp}</p>
-    );
-  }
-}
+Hello.propTypes = {
+  /** Sample prop that you can change */
+  dummyProp: PropTypes.string
+};
+
+Hello.defaultProps = {
+  dummyProp: 'My dummy prop default value'
+};

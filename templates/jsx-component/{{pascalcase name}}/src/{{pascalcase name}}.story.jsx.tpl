@@ -3,7 +3,7 @@ import React from 'react';
 import { text } from '@storybook/addon-knobs';
 import { withInfo } from '@storybook/addon-info';
 
-import {{pascalcase name}} from './{{pascalcase name}}';
+import { {{pascalcase name}} } from './{{pascalcase name}}';
 
 import { createStorySetWithDefault, getKnob, getStoryProps } from '@coinsquare/storybook';
 

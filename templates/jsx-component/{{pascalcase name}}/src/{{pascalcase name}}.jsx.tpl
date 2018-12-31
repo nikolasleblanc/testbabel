@@ -1,19 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
 
-export default class {{pascalcase name}} extends React.PureComponent {
-  static propTypes = {
-    /** Sample prop that you can change */
-    dummyProp: PropTypes.string
-  };
+import PropTypes from 'prop-types';
 
-  static defaultProps = {
-    dummyProp: 'My dummy prop default value'
-  };
+export const {{pascalcase name}} = props => (
+  <p>{{pascalcase name}} Component {props.dummyProp}</p>
+);
 
-  render() {
-    return (
-      <p>{{pascalcase name}} Component - {this.props.dummyProp}</p>
-    );
-  }
-}
+{{pascalcase name}}.propTypes = {
+  /** Sample prop that you can change */
+  dummyProp: PropTypes.string
+};
+
+{{pascalcase name}}.defaultProps = {
+  dummyProp: 'My dummy prop default value'
+};
